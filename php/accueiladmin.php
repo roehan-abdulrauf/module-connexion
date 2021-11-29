@@ -8,25 +8,25 @@
 <head>
     <title> Projet module de connexion </title>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="module-connexion.css" />
+    <link rel="stylesheet" href="moduleconnexion.css" />
 </head>
 
 <body>
-    <header>
-        <section>
+<header>
+        <section class="titre-header">
             <div>
                 <ul class="navbar">
                     <li>
-                        <h2> <a href="accueiluser.php">Accueil</a></h2>
+                        <h2> <a href="accueiladmin.php">Accueil</a></h2>
                     </li>
                     <li>
-                        <h2> <a href="tableaudebord.php">Tableau de bord</a></h2>
+                        <h2> <a href="admin.php">Tableau de bord</a></h2>
                     </li>
                     <li>
-                        <h2> <a href="profil.php">Profil</a></h2>
+                        <h2> <a href="admin.php">Profil</a></h2>
                     </li>
                     <li>
-                        <h2> <a href="contact2.php">Contact</a></h2>
+                        <h2> <a href="contact1.php">Contact</a></h2>
                     </li>
                     <li>
                         <h2> <a href="deconnexion.php">Deconnexion</a></h2>
@@ -84,19 +84,19 @@
         <div class="footer-dark">
             <div class="row">
                 <div class="but">
-                    <h3><a href="accueiluser.php">Accueil</a></h3>
+                    <h3><a href="accueiladmin.php">Accueil</a></h3>
                 </div>
                 <div class="but">
-                    <h3><a href="tableaudebord.php">Tableau de bord</a></h3>
+                <h3><a href="ensavoirplus.php">En savoir plus</a></h3>
                 </div>
                 <div class="but">
-                    <h3> <a href="profil.php">Profil</a></h3>
+                    <h3><a href="connexion.php">Connexion</a></h3>
                 </div>
                 <div class="but">
-                    <h3><a href="contact2.php">Contact</a></h3>
+                    <h3><a href="inscription.php">Inscription</a></h3>
                 </div>
                 <div class="but">
-                    <h3><a href="deconnexion.php">Deconnexion</a></h3>
+                    <h3> <a href="contact.php">Contact</a></h3>
                 </div>
             </div>
             <div class="raw">

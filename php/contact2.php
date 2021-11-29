@@ -4,25 +4,25 @@
 <head>
     <title> Page inscription </title>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="imodule-connexion.css" />
+    <link rel="stylesheet" href="moduleconnexion.css" />
 </head>
 
 <body>
     <header>
-        <section class="titre-header">
+        <section>
             <div>
                 <ul class="navbar">
                     <li>
                         <h2> <a href="index.php">Accueil</a></h2>
                     </li>
                     <li>
-                        <h2> <a href="admin.php">Tableau de bord</a></h2>
+                        <h2> <a href="tableaudebord.php">Tableau de bord</a></h2>
                     </li>
                     <li>
-                        <h2> <a href="profiladmin.php">Profil</a></h2>
+                        <h2> <a href="profil.php">Profil</a></h2>
                     </li>
                     <li>
-                        <h2> <a href="contact1.php">Contact</a></h2>
+                        <h2> <a href="contact2.php">Contact</a></h2>
                     </li>
                     <li>
                         <h2> <a href="deconnexion.php">Deconnexion</a></h2>
@@ -91,13 +91,13 @@
                     <h3><a href="index.php">Accueil</a></h3>
                 </div>
                 <div class="but">
-                    <h3><a href="profiladmin.php">Tableau de bord</a></h3>
+                    <h3><a href="tableaudebord.php">Tableau de bord</a></h3>
                 </div>
                 <div class="but">
-                    <h3> <a href="admin.php">Profil</a></h3>
+                    <h3> <a href="profil.php">Profil</a></h3>
                 </div>
                 <div class="but">
-                    <h3><a href="contact1.php">Contact</a></h3>
+                    <h3><a href="contact2.php">Contact</a></h3>
                 </div>
                 <div class="but">
                     <h3><a href="deconnexion.php">Deconnexion</a></h3>
