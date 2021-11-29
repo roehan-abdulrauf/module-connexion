@@ -29,7 +29,7 @@ $resultat = mysqli_num_rows($request);
                         <h2> <a href="profiladmin.php">Profil</a></h2>
                     </li>
                     <li>
-                        <h2> <a href="contact1.php">Lien Github</a></h2>
+                        <h2> <a href="https://github.com/roehan-abdulrauf/module-connexion">Lien Github</a></h2>
                     </li>
                     <li>
                         <h2> <a href="deconnexion.php">Deconnexion</a></h2>
@@ -91,7 +91,7 @@ $resultat = mysqli_num_rows($request);
                     <h3> <a href="profiladmin.php">Profil</a></h3>
                 </div>
                 <div class="but">
-                    <h3><a href="contact1.php">Lien Github</a></h3>
+                    <h3><a href="https://github.com/roehan-abdulrauf/module-connexion">Lien Github</a></h3>
                 </div>
                 <div class="but">
                     <h3><a href="deconnexion.php">Deconnexion</a></h3>
