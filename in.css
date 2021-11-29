@@ -1,0 +1,353 @@
+* {
+  margin: 0;
+}
+
+/* css page index */
+
+.centrer-text {
+  margin: 50px 0px;
+  display: flex;
+  justify-content: center;
+}
+
+.parede-rea{
+  width: 60% ;
+}
+
+.h2-index{
+  margin: 0 0 50px;
+  font-size: 180%;
+}
+
+.h2-indexe{
+  margin: 50px 0 0;
+  font-size: 200%;
+}
+
+.form-input {
+  background-color: rgb(248, 245, 245);
+  width: 25%;
+  padding: 0 0 1% 0;
+  margin-bottom: 2%;
+  border-radius: 10px;
+}
+
+.input {
+  font-size: 170%;
+  width: 60%;
+  padding: 2%;
+  border-radius: 8px;
+}
+
+.inputindex {
+  background-image: linear-gradient(135deg, #f6c5aa6b 10%, #6ba7f1 100%);
+}
+
+.inputindex:hover {
+  cursor: pointer;
+  background-image: linear-gradient(135deg, #c59e896b 10%, #a5bbd6 100%);
+}
+
+.tar {
+  padding-top: 12%;
+  padding-bottom: 7%;
+}
+
+.super {
+  font-family: Georgia, serif;
+  color: #e7205f;
+}
+
+.accueil{
+  display: flex;
+  justify-content: space-evenly;
+
+}
+
+/* css admin*/
+
+.tarr {
+  padding-top: 8%;
+  padding-bottom: 5%;
+}
+
+.table {
+  margin-left: 30%;
+  border-collapse: collapse;
+  margin-bottom: 12%;
+  font-size: 170%;
+}
+
+/*css du header*/
+
+li {
+  text-decoration: none;
+  font-size: 19px;
+  color: rgb(246, 247, 248);
+  padding-bottom: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: #03224c;
+}
+
+.navbar {
+  padding: 0%;
+}
+.navbar li {
+  height: auto;
+  width: 19.99%;
+  float: left;
+  text-align: center;
+  list-style: none;
+  font: normal bold 13px/1em Arial, Verdana, Helvetica;
+  background-color: #03224c;
+}
+.navbar a {
+  padding: 4%;
+  border-left: 1px solid #ccc9c9;
+  text-decoration: none;
+  color: white;
+  display: block;
+}
+.navbar li:hover,a:hover {
+  background-color: #948a8a;
+}
+
+.navbar li ul {
+  display: none;
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
+.navbar li:hover ul {
+  display: block;
+}
+.navbar li ul li {
+  background-color: #444444;
+}
+.navbar li ul li a {
+  border-left: 1px solid #444444;
+  border-right: 1px solid #444444;
+  border-top: 1px solid #c9d4d8;
+  border-bottom: 1px solid #444444;
+}
+.navbar li ul li a:hover {
+  background-color: #a3a1a1;
+}
+
+/*css en savoir plus*/
+
+#debut-fin{display: flex;
+  justify-content: space-evenly;
+  padding-top: 4%;
+  padding-bottom: 2%;
+  background-image: linear-gradient( 
+    120deg, white 50%, lavender 50%);}
+  
+    .titre-fin{font-size: 190%;
+      text-align: center;
+      margin-top: 7%;
+    margin-bottom: 3%;
+  }
+
+#page-index {
+  text-align: center;
+  padding-top: 7%;
+  padding-bottom: 5%;
+}
+
+.prof {
+  padding-bottom: 2%;
+}
+
+#textpeintre {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 4%;
+  padding-bottom: 6%;
+}
+
+.notrepassion {
+  position: relative;
+  top: 150px;
+}
+
+.pour {
+  padding-bottom: 2%;
+}
+
+.maps {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 10%;
+  padding-bottom: 3%;
+  background-image: linear-gradient(110deg, white 50%, lavender 50%);
+}
+
+.adresse {
+  position: relative;
+  padding-top: 10%;
+}
+
+.titre-prof {
+  padding-right: 13%;
+}
+²
+.titre-pour {
+  padding-right: 24%;
+}
+
+/* css du footer*/
+
+.row h3:hover {
+  background-color: #948a8a;
+}
+
+h6 {
+  font-size: 250%;
+  text-align: center;
+}
+
+.footer-dark {
+  padding: 2%;
+  color: #ffffff;
+  background-image: linear-gradient(135deg, #fd5e086b 10%, #9f05ff69 100%);
+}
+
+.footer-dark h3 {
+  margin-top: 0;
+  font-weight: bold;
+  font-size: 140%;
+}
+
+.copyright {
+  text-align: center;
+  padding-top: 24px;
+  opacity: 0.9;
+  font-size: 13px;
+  margin-bottom: 0;
+}
+
+.horaire {
+  padding-left: 28%;
+  text-align: center;
+}
+
+.titre-h {
+  font-size: 130%;
+  padding-bottom: 8%;
+}
+
+.row {
+  display: flex;
+  justify-content: space-around;
+}
+
+.raw {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 5%;
+  padding-right: 20%;
+}
+
+/*formulaire conection/inscription*/
+
+h1 {
+  font-size: 250%;
+  text-align: center;
+}
+
+h5{
+  font-size: 140%;
+  text-align: center;
+}
+
+form{
+  padding-top: 8%;
+  padding-bottom: 6%;
+  background-color: #c9ced4;
+  margin: 0 0 50px;
+}
+
+.table-forme {
+  padding-top: 6%;
+}
+
+td {
+  padding: 1%;
+}
+
+button {
+  margin-top: 2%;
+  font-size: 150%;
+  border-radius: 8px;
+}
+
+button:hover {
+  background-color: #fd5e086b;
+  cursor: pointer;
+}
+
+button[type="submit"] {
+  background-color: skyblue;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 80%;
+}
+
+button[type="submit"]:hover {
+  background-image: linear-gradient(135deg, skyblue 10%, #0d5ab9 100%);
+}
+
+p {
+  font-size: 120%;
+}
+
+.connect-here:hover {
+  background-color: skyblue;
+  cursor: pointer;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid rgb(175, 173, 173);
+  box-sizing: border-box;
+}
+
+/* formulaire contact*/
+
+#nous-contacter{
+  width: 100%;
+   height: 10%;
+   text-align: center;
+   position: relative;
+   left: 15%;
+ }
+ 
+ #Devis{display: flex;
+   justify-content: space-around;
+   padding-right: 5%;
+   padding-top: 7%;
+   padding-bottom: 10%;
+ }
+ 
+ .photo-devis{padding-top: 20%;
+ position: relative;
+ right: 10%;}
+ 
+ .form-devis{width: 250%;
+   height: 50%;
+     font-family: "poppins";
+     color: #303030;
+ }
