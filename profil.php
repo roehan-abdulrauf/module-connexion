@@ -18,7 +18,7 @@ if (isset($_POST['modifier'])) {
     $requete = "UPDATE utilisateurs SET login='$login10', prenom='$prenom10', nom='$nom10', password='$password10' WHERE  login = '$sesslogin' ";
    // echo $requete;
     $re = mysqli_query($bdd, $requete);
-   // var_dump($re);
+   // var_dump($re); 
 
     // $res2 = mysqli_fetch_all($re, MYSQLI_ASSOC);
 }
@@ -29,7 +29,7 @@ if (isset($_POST['modifier'])) {
 
 <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="in.css">
+    <link rel="stylesheet" href="module-connexion.css">
     <title>PAREDE - profil</title>
 </head>
 
@@ -62,10 +62,10 @@ if (isset($_POST['modifier'])) {
             <h1>Vous etes sur le point de modifier vos informations <?php echo $_SESSION["login"]; ?></h1>
             <form method="post" action="">
                 <h3 style="color: red;">
-                    <?php if ($re == false) {
-                        echo "veuillez réessayer vos modifications";
-                    } else {
+                    <? if ($re == true) {
                         echo  "vos information ont été modifier avec succès";
+                    } else {
+                        echo "veuillez réessayer vos modifications";
                     } ?></h3>
                 <table class="form-input">
                     <tr>

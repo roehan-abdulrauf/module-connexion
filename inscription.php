@@ -4,7 +4,7 @@
 <head>
     <title> Page inscription </title>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="in.css" />
+    <link rel="stylesheet" href="module-connexion.css" />
 </head>
 
 <body>
@@ -75,7 +75,7 @@
                             mysqli_query($sql, $request);
                             header("location:./connexion.php");
                         } else {
-                            echo '<h2 style="color:#F96E69 ;">veuillez rentrée les memes mot de passe.</h2>';
+                            echo '<h2 style="color:#F96E69 ;">veuillez saisie les memes mot de passe.</h2>';
                         }
 
                         mysqli_close($sql);

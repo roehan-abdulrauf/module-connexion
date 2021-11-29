@@ -30,7 +30,7 @@ if (isset($_POST['modifier'])) {
 
 <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="in.css">
+    <link rel="stylesheet" href="module-connexion.css">
     <title>PAREDE - profil</title>
 </head>
 

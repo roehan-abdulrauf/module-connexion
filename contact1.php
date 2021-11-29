@@ -4,7 +4,7 @@
 <head>
     <title> Page inscription </title>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="in.css" />
+    <link rel="stylesheet" href="imodule-connexion.css" />
 </head>
 
 <body>

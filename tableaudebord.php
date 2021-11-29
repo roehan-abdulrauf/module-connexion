@@ -8,7 +8,7 @@ session_start()
 <head>
     <title> Projet module de connexion </title>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="in.css" />
+    <link rel="stylesheet" href="module-connexion.css" />
 </head>
 
 <body>
@@ -36,7 +36,7 @@ session_start()
         </section>
     </header>
     <main>
-        <h1 style="color:cornflowerblue;">Bienvenue sur notre site web <?php echo $_SESSION["login"]; ?> </h1>
+        <h1 class="res">Bienvenue sur notre site web <?php echo $_SESSION["login"]; ?> </h1>
         <section id="Devis">
             <section id="nous-contacter">
                 <h2>Nous Contacter</h2>

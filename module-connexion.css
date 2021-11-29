@@ -68,7 +68,7 @@
 
 .tarr {
   padding-top: 8%;
-  padding-bottom: 5%;
+  padding-bottom: 8%;
 }
 
 .table {
@@ -78,6 +78,9 @@
   font-size: 170%;
 }
 
+.res{
+padding-top: 5%;
+}
 /*css du header*/
 
 li {
@@ -335,14 +338,15 @@ textarea {
    left: 15%;
  }
  
- #Devis{display: flex;
-   justify-content: space-around;
-   padding-right: 5%;
-   padding-top: 7%;
-   padding-bottom: 10%;
+ #Devis {
+  display: flex;
+  justify-content: space-around;
+  padding-right: 5%;
+  padding-top: 4%;
+  padding-bottom: 1%;
  }
  
- .photo-devis{padding-top: 20%;
+ .photo-devis{padding-top: 10%;
  position: relative;
  right: 10%;}
  
