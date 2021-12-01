@@ -74,12 +74,15 @@
                             $request = "INSERT INTO `utilisateurs` (`login`, `prenom`, `nom`, `password`) VALUES ('$login','$prenom','$nom','$password')";
                             mysqli_query($sql, $request);
                             header("location:./connexion.php");
-                        } else {
-                            echo '<h2 style="color:#F96E69 ;">veuillez saisie les memes mot de passe.</h2>';
                         }
-
-                        mysqli_close($sql);
+                        if ($login == true) {
+                            echo "Identifiant déja utilisé veuillez en choisir un autre";
+                        } else {
+                            echo '<h2 style="color:#F96E69 ;">Vos mots de passes ne correspondent pas !</h2>';
+                        }
                     }
+                    mysqli_close($sql);
+
                     ?>
                     <p>Déjà inscrit? <a class="connect-here" href="connexion.php">Connectez-vous ici</a></p>
                 </form>
