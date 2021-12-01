@@ -107,7 +107,7 @@
                         Sam-Dim: Fermé</p>
                 </div>
                 <div>
-                    <p class="copyright">Parede © 2021</p>
+                    <p class="copyright"> Copyright©2021 Parede. Tous droits réservés.</p>
                 </div>
             </div>
         </div>
