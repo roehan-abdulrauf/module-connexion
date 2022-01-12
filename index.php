@@ -8,7 +8,7 @@
 <head>
     <title> Projet module de connexion </title>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="module-connexion.css" />
+    <link rel="stylesheet" href="/module-connexion/moduleconnexion.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
@@ -21,16 +21,16 @@
                         <h2> <a href="index.php">Accueil</a></h2>
                     </li>
                     <li>
-                        <h2> <a href="ensavoirplus.php">En savoir plus</a></h2>
+                        <h2> <a href="/module-connexion/ensavoirplus.php">En savoir plus</a></h2>
                     </li>
                     <li>
-                        <h2> <a href="connexion.php">Connexion</a></h2>
+                        <h2> <a href="/module-connexion/module-connexion/connexion.php">Connexion</a></h2>
                     </li>
                     <li>
-                        <h2> <a href="inscription.php">Inscription</a></h2>
+                        <h2> <a href="/module-connexion/inscription.php">Inscription</a></h2>
                     </li>
                     <li>
-                        <h2> <a href="contact.php">Contact</a></h2>
+                        <h2> <a href="/module-connexion/contact.php">Contact</a></h2>
                     </li>
                 </ul>
             </div>
@@ -39,7 +39,7 @@
     <main>
         <section id="page-index">
             <div class="prof">
-                <h1>N’ayez plus peur des travaux </h1>
+                <h1>N’ayez plus peur des travaux</h1>
                 <div class="centrer-text">
                     <p class="parede-rea">PAREDE réalise vos travaux de maçonnerie générale et façade. Du gros œuvre au carrelage intérieur, en construction, rénovation ou réparation, nous intervenons rapidement et sur devis gratuit.</p>
                 </div>

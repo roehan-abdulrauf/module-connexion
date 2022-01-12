@@ -4,13 +4,13 @@
 <head>
     <title> Page inscription </title>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="../moduleconnexion.css" />
+    <link rel="stylesheet" href="moduleconnexion.css" />
 </head>
 
 <body>
     <main>
         <div align="center">
-            <h1>PAREDE </h1>        
+            <h1>PAREDE </h1>
             <form action="#" method="POST">
                 <table class="form-input">
                     <tr>
@@ -19,7 +19,7 @@
                             <label>Identifiant</label>
                             <input type="text" name="login" placeholder="Entrer le nom" required>
                         </td>
-                    </tr>v
+                    </tr>
                     <tr>
                         <td>
                             <label>Mot de passe</label>
@@ -39,7 +39,7 @@
                     $password = htmlspecialchars($_POST['password']);
 
                     $sql = mysqli_connect('localhost', 'root', '', 'moduleconnexion');
-
+DF
                     if (!$sql) {
                         die("Connection failed: " . mysqli_connect_error());
                     }
